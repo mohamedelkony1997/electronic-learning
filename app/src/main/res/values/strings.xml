@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">E-Learning</string>
+    <string name="title_activity_awards">awards</string>
+    <string name="tab_text_1">Certifications</string>
+    <string name="tab_text_2">Wins</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6E2C90</color>
+    <color name="colorPrimaryDark">#551B72</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="edittextBG">#DADADA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="textcolor">#6e6e6e</color>
+    <color name="circleBorder">#795548</color>
+    <color name="online">#64dd17</color>
+    <color name="offline">#b71c1c</color>
+    <color name="intro">#ca6e2c90</color>
+
+</resources>

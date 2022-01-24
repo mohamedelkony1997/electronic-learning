@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".introduction">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logoapp"
+        android:tint="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal"
+        android:text="E-Learning"
+        android:layout_marginTop="-10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/title">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:text="Choose your Identity: "
+            android:textColor="@color/textcolor"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/spinner_identity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="180dp"
+            android:textSize="15sp"
+
+
+            />
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/google"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/square2"
+        android:drawableLeft="@drawable/email"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:onClick="login"
+        android:paddingLeft="12dp"
+        android:text="Email"
+        android:textAllCaps="false"
+        android:textColor="@color/textcolor"
+        android:textSize="15dp"
+
+        />
+<com.google.android.gms.common.SignInButton
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/google"
+    android:layout_above="@id/facebook"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="10dp"
+    android:textSize="17dp"
+    android:background="@color/colorPrimary"
+
+   />
+
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/square2"
+        android:drawableLeft="@drawable/linkedin"
+        android:paddingLeft="12dp"
+        android:text="Linked In"
+        android:textAllCaps="false"
+        android:textColor="@color/textcolor"
+        android:textSize="17dp" />
+
+
+</RelativeLayout>
